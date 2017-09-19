@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorTrang"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/lineTong"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/colorXam2"
+            android:gravity="center"
+            android:text="@string/w02_wos"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorView">
+
+        </View>
+
+
+        <EditText
+            android:id="@+id/edtNhapEmail"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/bg_while_edittext"
+            android:hint="@string/w03_hint"
+            android:maxLength="50"
+            android:singleLine="true"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/txtXacNhan"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:maxWidth="400dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bg_button_cam"
+            android:gravity="center"
+            android:text="@string/w03_xacnhan"
+            android:textColor="@color/colorTrang"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:id="@+id/txtHuyBo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/size_15"
+            android:layout_marginRight="@dimen/size_15"
+            android:layout_marginTop="@dimen/size_15"
+            android:text="@string/w08_huybo"
+            android:textColor="@color/colorLam"
+            android:textSize="@dimen/text_16" />
+
+    </LinearLayout>
+
+</LinearLayout>

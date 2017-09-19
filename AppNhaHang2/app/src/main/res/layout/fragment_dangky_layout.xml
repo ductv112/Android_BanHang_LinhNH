@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorTrang"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/lineTong"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/colorXam2"
+                android:gravity="center"
+                android:text="@string/w02_wos"
+                android:textSize="16sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorView">
+
+            </View>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="20dp">
+
+
+                <EditText
+                    android:id="@+id/edtTenDangNhap"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/bg_while_edittext"
+                    android:hint="@string/text_tendangnhap"
+                    android:maxLength="20"
+                    android:singleLine="true"
+                    android:textStyle="italic" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp">
+
+
+                <EditText
+                    android:id="@+id/edtEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/bg_while_edittext"
+                    android:hint="@string/w04_email"
+                    android:maxLength="50"
+                    android:singleLine="true"
+                    android:textStyle="italic" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp">
+
+
+                <EditText
+                    android:id="@+id/edtSDT"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/bg_while_edittext"
+                    android:hint="@string/w04_sdt"
+                    android:inputType="phone"
+                    android:maxLength="11"
+                    android:singleLine="true"
+                    android:textStyle="italic" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp">
+
+
+                <EditText
+                    android:id="@+id/edtMatKhau"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/bg_while_edittext"
+                    android:hint="@string/w04_matkhau"
+                    android:maxLength="20"
+                    android:password="true"
+                    android:singleLine="true"
+                    android:textStyle="italic" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp">
+
+
+                <EditText
+                    android:id="@+id/edtNhapLaiMatKhau"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/bg_while_edittext"
+                    android:hint="@string/w04_nhaplai_matkhau"
+                    android:maxLength="20"
+                    android:password="true"
+                    android:singleLine="true"
+                    android:textStyle="italic" />
+
+
+            </RelativeLayout>
+
+
+            <TextView
+                android:id="@+id/txtDieuKhoanSD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/size_15"
+                android:layout_marginTop="@dimen/size_15"
+                android:text="@string/w04_dieukhoan"
+                android:textColor="@color/colorLam"
+                android:textSize="@dimen/text_16" />
+
+
+            <TextView
+                android:id="@+id/txtDangKy"
+                android:layout_width="match_parent"
+                android:maxWidth="400dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg_button_cam"
+                android:gravity="center"
+                android:text="@string/w04_dangky"
+                android:textColor="@color/colorTrang"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:id="@+id/txtQuayLaiDangNhap"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/size_15"
+                android:layout_marginTop="@dimen/size_15"
+                android:text="@string/w04_quaylai"
+                android:textColor="@color/colorLam"
+                android:textSize="@dimen/text_16" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,305 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_50"
+        android:background="@color/colorXanhNgocBichXam">
+
+        <ImageView
+            android:id="@+id/imgHamburger"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/size_10"
+            android:layout_marginRight="@dimen/size_30"
+            android:background="@mipmap/ic_hamburger_white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/imgHamburger"
+            android:text="@string/text_actionbar"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_16" />
+
+        <ImageView
+            android:id="@+id/imgSearch"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/size_10"
+            android:layout_toLeftOf="@+id/imgDiemThuong"
+            android:background="@mipmap/ic_search_white" />
+
+        <ImageView
+            android:id="@+id/imgDiemThuong"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/layoutCart"
+            android:background="@drawable/ic_alarm_on_white_48dp" />
+
+        <RelativeLayout
+            android:id="@+id/layoutCart"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/size_10">
+
+            <ImageView
+                android:id="@+id/imgCart"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_centerInParent="true"
+                android:background="@mipmap/ic_cart_white" />
+
+            <TextView
+                android:id="@+id/txtCartNum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:paddingTop="8dp"
+                android:textColor="@color/colorDoTuoi"
+                android:textSize="@dimen/text_12" />
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imgLogo"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="20dp" />
+
+                <TextView
+                    android:id="@+id/txtPhienBan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:text="Phiên bản mới 2.1" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="2"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/layoutEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:background="@color/colorTrang"
+                    android:gravity="center_vertical">
+
+                    <ImageView
+                        android:id="@+id/imgInfoMail"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="20dp"
+                        android:background="@mipmap/info_mail" />
+
+                    <TextView
+                        android:id="@+id/txtInfoMail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="15dp"
+                        android:layout_toLeftOf="@+id/imgNextInfoMail"
+                        android:layout_toRightOf="@+id/imgInfoMail"
+                        android:singleLine="true" />
+
+                    <ImageView
+                        android:id="@+id/imgNextInfoMail"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="20dp"
+                        android:background="@mipmap/icon_login_next" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/layoutWeb"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/colorTrang"
+                    android:gravity="center_vertical">
+
+                    <ImageView
+                        android:id="@+id/imgInfoWeb"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="20dp"
+                        android:background="@mipmap/info_web" />
+
+                    <TextView
+                        android:id="@+id/txtInfoWeb"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="15dp"
+                        android:layout_toLeftOf="@+id/imgNextInfoWeb"
+                        android:layout_toRightOf="@+id/imgInfoWeb"
+                        android:singleLine="true" />
+
+                    <ImageView
+                        android:id="@+id/imgNextInfoWeb"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="20dp"
+                        android:background="@mipmap/icon_login_next" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/layoutPhone"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/colorTrang"
+                    android:gravity="center_vertical">
+
+                    <ImageView
+                        android:id="@+id/imgInfoTell"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="20dp"
+                        android:background="@mipmap/info_tell" />
+
+                    <TextView
+                        android:id="@+id/txtInfoTell"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="15dp"
+                        android:layout_toLeftOf="@+id/imgNextInfoTell"
+                        android:layout_toRightOf="@+id/imgInfoTell"
+                        android:singleLine="true" />
+
+                    <ImageView
+                        android:id="@+id/imgNextInfoTell"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="20dp"
+                        android:background="@mipmap/icon_login_next" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/layoutSkype"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/colorTrang"
+                    android:gravity="center_vertical">
+
+                    <ImageView
+                        android:id="@+id/imgInfoSkype"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="20dp"
+                        android:background="@mipmap/info_skype" />
+
+                    <TextView
+                        android:id="@+id/txtInfoSkype"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="15dp"
+                        android:layout_toLeftOf="@+id/imgNextInfoSkype"
+                        android:layout_toRightOf="@+id/imgInfoSkype"
+                        android:singleLine="true" />
+
+                    <ImageView
+                        android:id="@+id/imgNextInfoSkype"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="20dp"
+                        android:background="@mipmap/icon_login_next" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/layoutFacebook"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/colorTrang"
+                    android:gravity="center_vertical">
+
+                    <ImageView
+                        android:id="@+id/imgInfoFacebook"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="20dp"
+                        android:background="@mipmap/info_fb" />
+
+                    <TextView
+                        android:id="@+id/txtInfoFacebook"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="15dp"
+                        android:layout_toLeftOf="@+id/imgNextInfoFacebook"
+                        android:layout_toRightOf="@+id/imgInfoFacebook"
+                        android:singleLine="true" />
+
+                    <ImageView
+                        android:id="@+id/imgNextInfoFacebook"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="20dp"
+                        android:background="@mipmap/icon_login_next" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

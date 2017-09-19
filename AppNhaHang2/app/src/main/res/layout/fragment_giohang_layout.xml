@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorTrang"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_50"
+        android:background="@color/colorXanhNgocBichXam">
+
+        <ImageView
+            android:id="@+id/imgHamburger"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/size_10"
+            android:layout_marginRight="@dimen/size_30"
+            android:background="@mipmap/ic_hamburger_white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/imgHamburger"
+            android:text="@string/text_actionbar"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_16" />
+
+        <ImageView
+            android:id="@+id/imgSearch"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/size_10"
+            android:layout_toLeftOf="@+id/imgDiemThuong"
+            android:background="@mipmap/ic_search_white" />
+
+        <ImageView
+            android:id="@+id/imgDiemThuong"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/layoutCart"
+            android:background="@drawable/ic_alarm_on_white_48dp" />
+
+        <RelativeLayout
+            android:id="@+id/layoutCart"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/size_10">
+
+            <ImageView
+                android:id="@+id/imgCart"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_centerInParent="true"
+                android:background="@mipmap/ic_cart_white" />
+
+            <TextView
+                android:id="@+id/txtCartNum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:paddingTop="8dp"
+                android:textColor="@color/colorDoTuoi"
+                android:textSize="@dimen/text_12" />
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/size_15">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/txtCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:text="@string/text_giohang_chuachon"
+                android:textSize="@dimen/text_16" />
+
+            <TextView
+                android:id="@+id/txtTongTien"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0 VNĐ"
+                android:textColor="@color/colorDo"
+                android:textSize="@dimen/text_16"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txtDatHang"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:maxWidth="400dp"
+            android:background="@drawable/bg_button_cam2"
+            android:gravity="center"
+            android:text="@string/text_dathang"
+            android:textColor="@color/colorTrang"
+            android:textSize="@dimen/text_16"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/size_10"
+            android:text="@string/text_nhacnho"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorXam"></View>
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/size_15"></ListView>
+
+</LinearLayout>

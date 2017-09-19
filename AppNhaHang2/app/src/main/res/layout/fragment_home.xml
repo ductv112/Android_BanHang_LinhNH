@@ -1,0 +1,116 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorXam"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/lineHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorXanhNgocBichXam"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_50">
+
+            <ImageView
+                android:id="@+id/imgHamburger"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/size_10"
+                android:layout_marginRight="@dimen/size_30"
+                android:background="@mipmap/ic_hamburger_white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/imgHamburger"
+                android:text="@string/text_actionbar"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/text_16" />
+
+
+            <ImageView
+                android:id="@+id/imgDiemThuong"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:layout_toLeftOf="@+id/layoutCart"
+                android:background="@drawable/ic_alarm_on_white_48dp" />
+
+            <RelativeLayout
+                android:id="@+id/layoutCart"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/size_10">
+
+                <ImageView
+                    android:id="@+id/imgCart"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_centerInParent="true"
+                    android:background="@mipmap/ic_cart_white" />
+
+                <TextView
+                    android:id="@+id/txtCartNum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:paddingTop="8dp"
+                    android:textColor="@color/colorDoTuoi"
+                    android:textSize="@dimen/text_12" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusableInTouchMode="true">
+
+            <AutoCompleteTextView
+                android:id="@+id/edtSearch"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_40"
+                android:layout_centerVertical="true"
+                android:layout_marginBottom="@dimen/size_5"
+                android:layout_marginLeft="@dimen/size_5"
+                android:layout_marginRight="@dimen/size_5"
+                android:background="@android:color/white"
+                android:gravity="center_vertical"
+                android:hint="@string/text_search"
+                android:imeOptions="actionSearch"
+                android:inputType="text"
+                android:maxLines="1"
+                android:paddingLeft="15dp"
+                android:paddingRight="@dimen/size_50"
+                android:singleLine="true" />
+
+            <ImageView
+                android:id="@+id/imgDeleteKeyWord"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/size_10"
+                android:background="@drawable/ic_close_black_24dp" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0dp"></ListView>
+
+
+</LinearLayout>

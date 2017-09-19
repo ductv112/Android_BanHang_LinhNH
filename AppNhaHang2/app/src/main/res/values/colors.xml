@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorVang">#FFB500</color>
+    <color name="colorLam">#46ADD8</color>
+    <color name="colorDo">#D64937</color>
+    <color name="colorTrang">#fff</color>
+    <color name="colorDen">#000</color>
+    <color name="colorView">#CBCBCB</color>
+    <color name="colorVangDam">#EDA100</color>
+    <color name="colorActionBarXanh">#0E2E43</color>
+    <color name="colorActionBarXanh2">#174B58</color>
+    <color name="colorProgressBarBG">#53A7CB</color>
+    <color name="colorProgressBarBG2">#1C2029</color>
+    <color name="colorProgressBarVien">#466B85</color>
+
+    <color name="colorbackground">#F3F3F3</color>
+
+    <color name="colorXanhNgocBichXam">#1B5A7B</color>
+    <color name="colorXanhNgocBichXam2">#5593b4</color>
+    <color name="colorXanhXam">#0D2031</color>
+    <color name="colorLink">#1464ac</color>
+    <color name="colorXanhNgocBich">#43C6DB</color>
+    <color name="colorXanhNgocBich2">#91eefd</color>
+    <color name="colorCam1">#ffac00</color>
+    <color name="colorCam2">#fcc042</color>
+    <color name="colorCam3">#faca66</color>
+    <color name="colorCam4">#fcdc9a</color>
+    <color name="colorXam">#efefef</color>
+    <color name="colorXam2">#e4e4e4</color>
+    <color name="colorDoTuoi">#ffffff</color>
+    <color name="colorXanhLuc">#05a90b</color>
+    <color name="colorXanhLuc2">#07c20e</color>
+    <color name="colorCam">#FB250D</color>
+
+    //Nguyendk
+
+    <color name="bg_btn_dangnhap">#feae01</color>
+    <color name="bg_btn_thamquan">#46add8</color>
+
+</resources>

@@ -1,0 +1,353 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/lineTong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorXanhNgocBichXam"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_50">
+
+            <ImageView
+                android:id="@+id/imgBackSearch"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/size_10"
+                android:layout_marginRight="@dimen/size_30"
+                android:background="@mipmap/w03_back" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/imgBackSearch"
+                android:text="@string/text_actionbar"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/text_16" />
+
+            <ImageView
+                android:id="@+id/imgDiemThuong"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:layout_toLeftOf="@+id/layoutCart"
+                android:background="@drawable/ic_alarm_on_white_48dp" />
+
+            <RelativeLayout
+                android:id="@+id/layoutCart"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/size_10">
+
+                <ImageView
+                    android:id="@+id/imgCart"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_centerInParent="true"
+                    android:background="@mipmap/ic_cart_white" />
+
+                <TextView
+                    android:id="@+id/txtCartNum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:paddingTop="8dp"
+                    android:textColor="@color/colorDoTuoi"
+                    android:textSize="@dimen/text_12" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_40"
+            android:focusableInTouchMode="true">
+
+            <AutoCompleteTextView
+                android:id="@+id/edtSearch"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_marginBottom="@dimen/size_5"
+                android:layout_marginLeft="@dimen/size_5"
+                android:layout_marginRight="@dimen/size_5"
+                android:background="@android:color/white"
+                android:completionThreshold="1"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:gravity="center_vertical"
+                android:hint="@string/text_search"
+                android:imeOptions="actionSearch"
+                android:inputType="text"
+                android:maxLines="1"
+                android:paddingLeft="15dp"
+                android:paddingRight="@dimen/size_50"
+                android:singleLine="true" />
+
+            <ImageView
+                android:id="@+id/imgDeleteKeyWord"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/size_10"
+                android:background="@drawable/ic_close_black_24dp" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/relayFilter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lineTong"
+        android:background="@color/colorTrang"
+        android:padding="@dimen/size_10">
+
+        <LinearLayout
+            android:id="@+id/layoutLoc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/size_10">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/size_5"
+                android:text="Lọc"
+                android:textColor="@color/colorXanhXam" />
+
+            <ImageView
+                android:layout_width="@dimen/size_30"
+                android:layout_height="@dimen/size_30"
+                android:background="@mipmap/ic_more_gray_3" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layoutSapXep"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:gravity="center_vertical|right"
+            android:orientation="horizontal"
+            android:paddingRight="@dimen/size_10">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/size_5"
+                android:text="Sắp xếp"
+                android:textColor="@color/colorXanhXam" />
+
+            <ImageView
+                android:layout_width="@dimen/size_30"
+                android:layout_height="@dimen/size_30"
+                android:background="@mipmap/ic_more_gray_3" />
+        </LinearLayout>
+    </RelativeLayout>
+
+
+    <ListView
+        android:id="@+id/lvSearch"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/relayFilter"></ListView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relayFilter"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <ListView
+                android:id="@+id/lvLoc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorTrang"
+                android:divider="@android:color/transparent"></ListView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <ListView
+                android:id="@+id/lvSapXep"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorTrang"
+                android:divider="@android:color/transparent"></ListView>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relayFilter"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorXam2"></View>
+
+            <RelativeLayout
+                android:id="@+id/layoutBack"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@color/colorTrang">
+
+                <ImageView
+                    android:id="@+id/imgBack"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/size_20"
+                    android:background="@mipmap/icon_back_black" />
+
+                <TextView
+                    android:id="@+id/txtLoai"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/size_15"
+                    android:layout_toRightOf="@+id/imgBack"
+                    android:text="Loại"
+                    android:textColor="@color/colorDen" />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorXam2"></View>
+
+            <ListView
+                android:id="@+id/lvLocLoai"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorTrang"
+                android:divider="@android:color/transparent"></ListView>
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relayFilter"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorXam2"></View>
+
+            <RelativeLayout
+                android:id="@+id/layoutBackTH"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@color/colorTrang">
+
+                <ImageView
+                    android:id="@+id/imgBackTH"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/size_20"
+                    android:background="@mipmap/icon_back_black" />
+
+                <TextView
+                    android:id="@+id/txtThuongHieu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/size_15"
+                    android:layout_toRightOf="@+id/imgBackTH"
+                    android:text="Thương hiệu"
+                    android:textColor="@color/colorDen" />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorXam2"></View>
+
+            <ListView
+                android:id="@+id/lvLocThuongHieu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorTrang"
+                android:divider="@android:color/transparent"></ListView>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/relayFilter"
+        android:background="@color/colorView">
+
+    </View>
+
+    <TextView
+        android:id="@+id/txtKoTimThay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:visibility="gone"
+        android:text="Không tìm thấy sản phẩm phù hợp"
+         />
+
+</RelativeLayout>

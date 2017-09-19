@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1067293095467",
+    "project_id": "banhang-1494404315966"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1067293095467:android:e175bbdd6a72f289",
+        "android_client_info": {
+          "package_name": "app.dft.appbanhang"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1067293095467-4ukn9dju4ptk81re9da3vbfl3lct28lu.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "1067293095467-4adh2u5ol4slav659tc7lvibv66cre0e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.dft.appbanhang",
+            "certificate_hash": "2d90f8a4a073df7cb224c8164beddfb8ae436992"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6T-Qt1xu4CCs7O5pWAJ2dzXpXc982908"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

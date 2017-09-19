@@ -1,0 +1,214 @@
+<resources>
+    <!--DucTV-->
+    <string name="app_name">WOS</string>
+    <string name="facebook_app_id">648778325311557</string>
+
+    <string name="key_map_android">AIzaSyAZqeCoZtD61zuDLau6jTEHHjIZ0RezL38</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="message_exit">Bấm back 1 lần nữa để thoát ứng dụng</string>
+
+    <string name="menu_trangchu">Trang chủ</string>
+    <string name="menu_banhang">Bán hàng</string>
+    <string name="menu_loaihanghoa">Loại hàng hóa</string>
+    <string name="menu_giamgia">Giảm giá</string>
+    <string name="menu_noibat">Nổi bật</string>
+    <string name="menu_thongtincanhan">Thông tin cá nhân</string>
+    <string name="menu_dadathang">Đã đặt hàng</string>
+    <string name="menu_nhandiemthuong">Nhận điểm thưởng</string>
+    <string name="menu_chamsockhachang">Chăm sóc khách hàng</string>
+    <string name="menu_lienhe">Liên hệ</string>
+
+    <string name="menu_danghanghoamoi">Đăng hàng hóa mới</string>
+    <string name="menu_danhsachhanghoa">Danh sách hàng hóa</string>
+    <string name="menu_donhang">Đơn hàng</string>
+
+    <string name="msg_dangtai">Đang tải...</string>
+    <string name="msg_loimang">Không có kết nối mạng, vui lòng kiểm tra lại</string>
+    <string name="msg_loiketnoiserver">Không thể kết nối tới server, vui lòng thử lại</string>
+    <string name="msg_loigps">GPS không bật, bạn có muốn tới thiết lập không?</string>
+    <string name="msg_loihethong">Lỗi hệ thống, vui lòng thử lại</string>
+
+    <string name="text_xacnhan">XÁC NHẬN</string>
+    <string name="text_huybo">HỦY BỎ</string>
+    <string name="text_thulai">THỬ LẠI</string>
+    <string name="text_thoat">THOÁT</string>
+
+    <string name="text_thongtinhanghoa">Thông tin hàng hóa</string>
+    <string name="text_themvaogiohang">Thêm vào giỏ hàng</string>
+    <string name="msg_themvaogiohangthanhcong">Thêm vào giỏ hàng thành công</string>
+    <string name="text_muangay">Mua ngay</string>
+    <string name="text_size">Size:</string>
+    <string name="text_qty">Số lượng:</string>
+    <string name="text_loaihanghoa">Loại hàng hóa:</string>
+    <string name="text_thuonghieu">Thương hiệu:</string>
+    <string name="tab_danggiamgia">Đang giảm giá</string>
+    <string name="tab_sapgiamgia">Sắp giảm giá</string>
+    <string name="tab_daxem">Bạn đã xem</string>
+    <string name="text_hanggiamgia">Hàng giảm giá</string>
+    <string name="text_xemtoanbo">Xem toàn bộ</string>
+    <string name="text_giamgiahomnay">Giảm giá hôm nay</string>
+    <string name="text_xemtoanbohangnoibat">Xem toàn bộ hàng nổi bật</string>
+    <string name="text_noibat">Nổi bật</string>
+    <string name="text_search">Tìm kiếm</string>
+    <string name="text_actionbar">WOS Shopping</string>
+    <string name="text_dieu_khoan_su_dung">Điều khoản sử dụng</string>
+    <string name="text_boqua">Bỏ qua</string>
+    <string name="text_chitietnhahang"><i><u>Chi tiết nhà hàng</u></i></string>
+    <string name="text_toi"><i>Tới</i></string>
+    <string name="text_chude"><i>Chủ đề</i></string>
+    <string name="text_noidung"><i>Nội dung</i></string>
+    <string name="text_nhaptennhahang"><i>Nhập tên nhà hàng</i></string>
+    <string name="text_hethong">Hệ thống</string>
+
+    <string name="title_chitietthongbao">Chi tiết thông báo</string>
+    <string name="title_phanhoi">Phản hồi</string>
+
+    <string name="prb_default_symbolic_string">$</string>
+
+    <string name="text_giohang_chuachon">Không có mặt hàng nào được chọn</string>
+    <string name="text_dathang">Tiến hành đặt hàng</string>
+
+    <!--DucTV end-->
+
+
+    <!--NguyenDK-->
+
+    <!--Màn hình W02.Đăng nhập-->
+    <string name="text_tendangnhap"><i>Tên đăng nhập</i></string>
+    <string name="text_matkhau"><i>Mật khẩu</i></string>
+    <string name="text_dangnhap">ĐĂNG NHẬP</string>
+    <string name="text_thamquan">KHÔNG CẦN ĐĂNG NHẬP</string>
+    <string name="w02_toast">Bạn vui lòng nhập Tên đăng nhập</string>
+    <string name="w02_toast2">Tên đăng nhập phải lớn hơn hoặc bằng 4 ký tự, vui lòng nhập lại Tên đăng nhập</string>
+    <string name="w02_toast3">Tên đăng nhập không đúng định dạng, vui lòng nhập lại Tên đăng nhập</string>
+    <string name="w02_toast4">Bạn vui lòng nhập Mật khẩu</string>
+    <string name="w02_toast5">Mật khẩu phải lớn hơn hoặc bằng 4 ký tự, vui lòng nhập lại Mật khẩu</string>
+    <string name="w02_dangxuly">Đang xử lý</string>
+    <string name="w02_dangdangnhap">Đang đăng nhập</string>
+    <string name="w02_quenmatkhau"><i><u>Quên mật khẩu?</u></i></string>
+    <string name="w02_dangkymoi"><i><u>Đăng ký mới</u></i></string>
+    <string name="w02_wos"><b>WOS Shopping</b></string>
+
+    <string name="w03_hint">Nhập email để lấy lại mật khẩu</string>
+    <string name="w03_xacnhan">XÁC NHẬN</string>
+    <string name="w03_error">Bạn vui lòng nhập Email</string>
+    <string name="w03_error2">Email không đúng định dạng, vui lòng nhập lại Email</string>
+
+    <string name="w04_dangkymoi">ĐĂNG KÝ MỚI</string>
+    <string name="w04_email">Email</string>
+    <string name="w04_sdt">Số điện thoại</string>
+    <string name="w04_matkhau">Mật khẩu</string>
+    <string name="w04_nhaplai_matkhau">Nhập lại mật khẩu</string>
+    <string name="w04_nguoigioithieu">Email hoặc SĐT người giới thiệu</string>
+    <string name="w04_text">Tôi đồng ý với</string>
+    <string name="w04_dieukhoan"> <i><u>Điều khoản sử dụng</u></i></string>
+    <string name="w04_quaylai"><i><u>Đã có tài khoản, đăng nhập</u></i></string>
+    <string name="w04_dangky">ĐĂNG KÝ</string>
+    <string name="w04_error_username">Bạn vui lòng nhập Tên đăng nhập</string>
+    <string name="w04_error_username2">Tên đăng nhập không đúng định dạng, vui lòng nhập lại Tên đăng nhập</string>
+    <string name="w04_error_username3">Tên đăng nhập phải lớn hơn hoặc bằng 4 ký tự, vui lòng nhập lại Tên đăng nhập</string>
+    <string name="w04_error_pass">Bạn vui lòng nhập Mật khẩu</string>
+    <string name="w04_error_pass2">Mật khẩu phải lớn hơn hoặc bằng 4 ký tự, vui lòng nhập lại Mật khẩu</string>
+    <string name="w04_error_confirmPass">Bạn vui lòng nhập Mật khẩu xác nhận</string>
+    <string name="w04_error_confirmPass2">Mật khẩu xác nhận chưa đúng, vui lòng nhập lại Mật khẩu xác nhận</string>
+    <string name="w04_error_email">Bạn vui lòng nhập Email</string>
+    <string name="w04_error_email2">Email không đúng định dạng, vui lòng nhập lại Email</string>
+    <string name="w04_error_sdt">Bạn vui lòng nhập Số điện thoại</string>
+    <string name="w04_error_sdt2">Số điện thoại không đúng định dạng, vui lòng nhập lại Số điện thoại</string>
+
+    <string name="w08_title">Thông tin người dùng</string>
+    <string name="w08_doimatkhau"><u><i>ĐỔI MẬT KHẨU</i></u></string>
+    <string name="w08_chuacapnhat">Chưa cập nhật</string>
+    <string name="w08_fullname">Bạn vui lòng nhập Tên người dùng</string>
+    <string name="w08_fullname2">Tên người dùng phải lớn hơn hoặc bằng 4 ký tự, vui lòng nhập lại Tên người dùng</string>
+    <string name="w08_diachi">Bạn vui lòng nhập Địa chỉ</string>
+    <string name="w08_email">Bạn vui lòng nhập Email</string>
+    <string name="w08_email2">Email chưa đúng định dạng, vui lòng nhập lại Email</string>
+    <string name="w08_sdt">Bạn vui lòng nhập Số điện thoại</string>
+    <string name="w08_sdt2">Số điện thoại chưa đúng, vui lòng nhập lại Số điện thoại</string>
+    <string name="w08_fb">Bạn vui lòng nhập Link Facebook</string>
+    <string name="w08_huybo"><i><u>Hủy bỏ</u></i></string>
+    <string name="w08_logout"><u><i>Đăng xuất</i></u></string>
+    <string name="w08_thongtincanhan">Thông tin cá nhân</string>
+    <string name="w08_chinhsua"><i><u>Chỉnh sửa</u></i></string>
+    <string name="diachi">Địa chỉ:</string>
+    <string name="email">Email:</string>
+    <string name="sodienthoai">Số điện thoại:</string>
+    <string name="edit_profile">Chỉnh sửa thông tin cá nhân</string>
+    <string name="text_huy">Hủy</string>
+    <string name="text_luu">Lưu</string>
+
+
+    <string name="w09_title">Đổi mật khẩu</string>
+    <string name="w09_hint_passOld"><i>Nhập mật khẩu cũ</i></string>
+    <string name="w09_hint_passNew"><i>Mật khẩu mới</i></string>
+    <string name="w09_hint_passNew2"><i>Nhập lại mật khẩu mới</i></string>
+    <string name="w09_message_001">Bạn vui lòng nhập Mật khẩu cũ</string>
+    <string name="w09_message_002">Mật khẩu cũ phải lớn hơn hoặc bằng 4 ký tự, vui lòng nhập lại Mật khẩu cũ</string>
+    <string name="w09_message_003">Bạn vui lòng nhập Mật khẩu mới</string>
+    <string name="w09_message_004">Mật khẩu mới phải lớn hơn hoặc bằng 4 ký tự, vui lòng nhập lại Mật khẩu mới</string>
+    <string name="w09_message_005">Bạn vui lòng nhập Mật khẩu xác nhận</string>
+    <string name="w09_message_006">Mật khẩu xác nhận chưa chính xác, vui lòng nhập lại Mật khẩu xác nhận</string>
+
+
+    <string name="w21_title">Thông báo - Tin khuyến mãi</string>
+    <string name="w25_title">Thông báo</string>
+    <string name="w25_hethong">Hệ thống</string>
+    <string name="w25_uathich">Ưa thích</string>
+    <string name="w25_phanhoi">Phản hồi</string>
+
+    <string name="ho_ten">Họ tên</string>
+    <string name="dia_chi">Địa chỉ</string>
+    <string name="sdt">Số điện thoại</string>
+    <string name="diachi_giaohang">Nhập địa chỉ giao hàng</string>
+    <string name="dathang">Đặt hàng</string>
+    <string name="ghichu">Ghi chú</string>
+
+    <string name="msg_fullname">Bạn vui lòng nhập Họ tên</string>
+    <string name="msg_diachi">Bạn vui lòng nhập Địa chỉ</string>
+    <string name="text_dathang_thanhcong">Đặt hàng thành công!</string>
+    <string name="text_taomoi_hanghoa">Đăng hàng hóa thành công!</string>
+
+    <string name="text_soluong">Số lượng: </string>'
+    <string name="text_diem">Điểm: </string>
+
+    <string name="text_danghanghoa">XÁC NHẬN</string>
+    <string name="text_freeship">Free Ship</string>
+    <string name="text_baohanh">Bảo hành (tháng)</string>
+    <string name="text_mota_ngan">Mô tả ngắn</string>
+    <string name="text_mota">Mô tả</string>
+    <string name="text_tygiacoin">Tỷ giá coin (VNĐ)</string>
+    <string name="text_soluong2">Số lượng</string>
+    <string name="text_dongia">Đơn giá (VNĐ)</string>
+    <string name="text_tenhanghoa">Tên hàng hóa</string>
+    <string name="text_thuonghieu2">Thương hiệu</string>
+    <string name="text_loaihanghoa2">Loại hàng hóa</string>
+    <string name="text_nhomhanghoa">Nhóm hàng hóa</string>
+    <string name="text_tag">Tag</string>
+    <string name="msg_anhhanghoa">Bạn vui lòng thêm Ảnh hàng hóa</string>
+    <string name="msg_loaihanghoa">Bạn vui lòng chọn Loại hàng hóa</string>
+    <string name="msg_thuonghieu">Bạn vui lòng chọn Thương hiệu</string>
+    <string name="msg_tenhanghoa">Bạn vui lòng nhập Tên hàng hóa</string>
+    <string name="msg_dongia">Bạn vui lòng nhập Đơn giá</string>
+    <string name="msg_soluong">Bạn vui lòng nhập Số lượng</string>
+    <string name="text_taianh">Tải ảnh</string>
+    <string name="text_nhacnho">Bạn có thể sử dụng điểm thưởng để mua hàng hóa</string>
+
+    <string name="text_khongcodonhangnao">Không có đơn hàng nào</string>
+
+
+
+    <!--NguyenDK end-->
+
+    <string name="hello"><i>Xin chào</i></string>
+    <string name="gia">Giá:</string>
+    <string name="freeship">Free Ship:</string>
+    <string name="tigia">Tỉ giá: </string>
+
+
+
+</resources>

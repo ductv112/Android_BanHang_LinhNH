@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorTrang"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/lineTong"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/colorXam2"
+                android:gravity="center"
+                android:text="@string/w02_wos"
+                android:textSize="@dimen/text_16" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorView">
+
+            </View>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/size_15"
+                    android:layout_marginTop="15dp">
+
+                    <TextView
+                        android:id="@+id/txtQuenMatKhau"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:text="@string/w02_quenmatkhau"
+                        android:textColor="@color/colorLam" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp">
+
+
+                    <EditText
+                        android:id="@+id/edtTenDangNhap"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/bg_while_edittext"
+                        android:hint="@string/text_tendangnhap"
+                        android:maxLength="20"
+                        android:singleLine="true" />
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="10dp">
+
+
+                    <EditText
+                        android:id="@+id/edtMatKhau"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/bg_while_edittext"
+                        android:hint="@string/text_matkhau"
+                        android:maxLength="20"
+                        android:password="true"
+                        android:singleLine="true" />
+
+
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/txtDangNhap"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/bg_button_cam"
+                    android:gravity="center"
+                    android:maxWidth="400dp"
+                    android:text="@string/text_dangnhap"
+                    android:textColor="@color/colorTrang"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/txtThamQuan"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/bg_button_xanh"
+                    android:gravity="center"
+                    android:maxWidth="400dp"
+                    android:text="@string/text_thamquan"
+                    android:textColor="@color/colorTrang"
+                    android:textSize="18sp" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="@dimen/size_20">
+
+
+                    <TextView
+                        android:id="@+id/txtDangKyMoi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:text="@string/w02_dangkymoi"
+                        android:textColor="@color/colorLam" />
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="30dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imgLoginFB"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@mipmap/w02_fb" />
+
+                    <ImageView
+                        android:id="@+id/imgLoginGG"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:background="@mipmap/w02_google" />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
